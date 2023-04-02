@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410BC3F0270B75E20075EB6F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 410BC3EF270B75E20075EB6F /* main.cpp */; };
+		410BC3F8270B76260075EB6F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3F7270B76260075EB6F /* CoreFoundation.framework */; };
+		410BC3FA270B763A0075EB6F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3F9270B763A0075EB6F /* IOKit.framework */; };
+		410BC3FC270B767E0075EB6F /* libconcert.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3FB270B767E0075EB6F /* libconcert.a */; };
+		410BC400270B76B60075EB6F /* libcplexdistmip.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3FD270B76B60075EB6F /* libcplexdistmip.a */; };
+		410BC401270B76B60075EB6F /* libilocplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3FE270B76B60075EB6F /* libilocplex.a */; };
+		410BC402270B76B60075EB6F /* libcplex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 410BC3FF270B76B60075EB6F /* libcplex.a */; };
+		410BC405270B78970075EB6F /* Instance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 410BC403270B78970075EB6F /* Instance.cpp */; };
+		410BC40C270B79430075EB6F /* CPLEX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 410BC40A270B79430075EB6F /* CPLEX.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		410BC3EA270B75E20075EB6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		410BC3EC270B75E20075EB6F /* feed-mix */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "feed-mix"; sourceTree = BUILT_PRODUCTS_DIR; };
+		410BC3EF270B75E20075EB6F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		410BC3F7270B76260075EB6F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		410BC3F9270B763A0075EB6F /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		410BC3FB270B767E0075EB6F /* libconcert.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libconcert.a; path = "../../../../../Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic/libconcert.a"; sourceTree = "<group>"; };
+		410BC3FD270B76B60075EB6F /* libcplexdistmip.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplexdistmip.a; path = "../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libcplexdistmip.a"; sourceTree = "<group>"; };
+		410BC3FE270B76B60075EB6F /* libilocplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libilocplex.a; path = "../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libilocplex.a"; sourceTree = "<group>"; };
+		410BC3FF270B76B60075EB6F /* libcplex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcplex.a; path = "../../../../../Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic/libcplex.a"; sourceTree = "<group>"; };
+		410BC403270B78970075EB6F /* Instance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Instance.cpp; sourceTree = "<group>"; };
+		410BC404270B78970075EB6F /* Instance.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Instance.hpp; sourceTree = "<group>"; };
+		410BC406270B78A80075EB6F /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		410BC40A270B79430075EB6F /* CPLEX.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CPLEX.cpp; sourceTree = "<group>"; };
+		410BC40B270B79430075EB6F /* CPLEX.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CPLEX.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		410BC3E9270B75E20075EB6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BC400270B76B60075EB6F /* libcplexdistmip.a in Frameworks */,
+				410BC401270B76B60075EB6F /* libilocplex.a in Frameworks */,
+				410BC402270B76B60075EB6F /* libcplex.a in Frameworks */,
+				410BC3FC270B767E0075EB6F /* libconcert.a in Frameworks */,
+				410BC3FA270B763A0075EB6F /* IOKit.framework in Frameworks */,
+				410BC3F8270B76260075EB6F /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		410BC3E3270B75E10075EB6F = {
+			isa = PBXGroup;
+			children = (
+				410BC3EE270B75E20075EB6F /* feed-mix */,
+				410BC3ED270B75E20075EB6F /* Products */,
+				410BC3F6270B76250075EB6F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		410BC3ED270B75E20075EB6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				410BC3EC270B75E20075EB6F /* feed-mix */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		410BC3EE270B75E20075EB6F /* feed-mix */ = {
+			isa = PBXGroup;
+			children = (
+				410BC40A270B79430075EB6F /* CPLEX.cpp */,
+				410BC40B270B79430075EB6F /* CPLEX.hpp */,
+				410BC403270B78970075EB6F /* Instance.cpp */,
+				410BC404270B78970075EB6F /* Instance.hpp */,
+				410BC406270B78A80075EB6F /* Header.h */,
+				410BC3EF270B75E20075EB6F /* main.cpp */,
+			);
+			path = "feed-mix";
+			sourceTree = "<group>";
+		};
+		410BC3F6270B76250075EB6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410BC3FF270B76B60075EB6F /* libcplex.a */,
+				410BC3FD270B76B60075EB6F /* libcplexdistmip.a */,
+				410BC3FE270B76B60075EB6F /* libilocplex.a */,
+				410BC3FB270B767E0075EB6F /* libconcert.a */,
+				410BC3F9270B763A0075EB6F /* IOKit.framework */,
+				410BC3F7270B76260075EB6F /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		410BC3EB270B75E20075EB6F /* feed-mix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 410BC3F3270B75E20075EB6F /* Build configuration list for PBXNativeTarget "feed-mix" */;
+			buildPhases = (
+				410BC3E8270B75E20075EB6F /* Sources */,
+				410BC3E9270B75E20075EB6F /* Frameworks */,
+				410BC3EA270B75E20075EB6F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "feed-mix";
+			productName = "feed-mix";
+			productReference = 410BC3EC270B75E20075EB6F /* feed-mix */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		410BC3E4270B75E20075EB6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					410BC3EB270B75E20075EB6F = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 410BC3E7270B75E20075EB6F /* Build configuration list for PBXProject "feed-mix" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 410BC3E3270B75E10075EB6F;
+			productRefGroup = 410BC3ED270B75E20075EB6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				410BC3EB270B75E20075EB6F /* feed-mix */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		410BC3E8270B75E20075EB6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				410BC405270B78970075EB6F /* Instance.cpp in Sources */,
+				410BC40C270B79430075EB6F /* CPLEX.cpp in Sources */,
+				410BC3F0270B75E20075EB6F /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		410BC3F1270B75E20075EB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		410BC3F2270B75E20075EB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		410BC3F4270B75E20075EB6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio1210/concert/include,
+					/Applications/CPLEX_Studio1210/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		410BC3F5270B75E20075EB6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/Applications/CPLEX_Studio1210/concert/include,
+					/Applications/CPLEX_Studio1210/cplex/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"/Applications/CPLEX_Studio1210/concert/lib/x86-64_osx/static_pic\"",
+					"\"/Applications/CPLEX_Studio1210/cplex/lib/x86-64_osx/static_pic\"",
+				);
+				OTHER_CFLAGS = "-DIL_STD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		410BC3E7270B75E20075EB6F /* Build configuration list for PBXProject "feed-mix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BC3F1270B75E20075EB6F /* Debug */,
+				410BC3F2270B75E20075EB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		410BC3F3270B75E20075EB6F /* Build configuration list for PBXNativeTarget "feed-mix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				410BC3F4270B75E20075EB6F /* Debug */,
+				410BC3F5270B75E20075EB6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 410BC3E4270B75E20075EB6F /* Project object */;
+}
