@@ -8,6 +8,9 @@ A simple example, made without classes, and inside the ```main``` function. The 
 ### model-2
 A simple linear model example. A ```CplexModel``` class is created within all steps are executed, then an object to call the constructor of the class is created in the ```main``` function to run the model. The model has 2 variables of 1 subindex (x<sub>1</sub>, x<sub>2</sub>). After model is solved solution status, solution value (obj. function), values of variables, and slacks of constraints are printed.
 
+### glasses-model
+A simple linear model example of a production of glasses. A ```CplexModel``` class is created.
+
 ### min-flow-model
 An example minimum flow model, A ```CplexModel``` class is created. After solve the problem to other constraints are added to call cplex to re-optimize the previous solved model. 
 
