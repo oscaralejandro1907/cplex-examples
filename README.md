@@ -12,5 +12,8 @@ An example of an integer model with two types of variables of 1 subindex (x<sub>
 ## graph-coloring
 An introduction example to Constraint Programming (CP). An instance about a problem of graph coloring is solved with this solution method.
 
+## house-building
+A simple example of a CP Model to organize tasks for building a house. Only precedence constraint ```IloEndBeforeStart``` is used.
+
 ## flow-shop-cp
 A CP model for a classic Flow-shop Scheduling Problem. Instance data format is provided in the examples of the cplex local installation folder.
