@@ -21,13 +21,13 @@ An example of a feed-mix problem. This example is in the book: Bazaraa. Linear P
 ### model-by-columns
 An simple example of a linear model populated by columns with one type of variable (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>). A ```Cplex``` class is created within all steps are executed.
 
-### integer-model-pcol
+### [integer-model-pcol](https://github.com/oscaralejandro1907/cplex-examples/tree/main/integer-model-pcol/Model)
 An example of an integer model with two types of variables of 1 subindex (x<sub>i</sub> and y<sub>i</sub>). This model is populated by columns.
 
-### cut-stock
+### [cut-stock](https://github.com/oscaralejandro1907/cplex-examples/tree/main/cut-stock/Model)
 An example of a cutting stock problem. Solved by a column generation procedure
 
-### tsp
+### [tsp](https://github.com/oscaralejandro1907/cplex-examples/tree/main/tsp/TSP)
 A complete tsp model
 
 ## Multi-Objective Problems
@@ -38,7 +38,7 @@ Two examples of simple multiobjective problems
 A simple bi-objective model solved by the eps-Constraint method.
 
 ## Constraint Programming Models
-### graph-coloring
+### [graph-coloring](https://github.com/oscaralejandro1907/cplex-examples/tree/main/graph-coloring)
 An introduction example to Constraint Programming (CP). An instance about a problem of graph coloring is solved with this solution method.
 
 ### house-building
