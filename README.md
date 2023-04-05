@@ -18,7 +18,7 @@ An example minimum flow model, A ```CplexModel``` class is created. After solve 
 An example of a feed-mix problem. This example is in the book: Bazaraa. Linear Programming and Network Flows. 4th Ed. Chapter 1 Exercise 1.3 page 29-30.
 
 ### model-by-columns
-An simple example of a linear model populated by columns with two types of variables of 1 subindex (x<sub>i</sub> and y<sub>i</sub>). A ```Cplex``` class is created within all steps are executed.
+An simple example of a linear model populated by columns with one type of variables of 1 subindex (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>). A ```Cplex``` class is created within all steps are executed.
 
 ### integer-model-pcol
 An example of an integer model with two types of variables of 1 subindex (x<sub>i</sub> and y<sub>i</sub>). This model is populated by columns.
