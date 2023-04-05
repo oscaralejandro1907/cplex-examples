@@ -6,7 +6,7 @@
 A simple example, made without classes, and inside the ```main``` function. The model has 3 variables of 1 subindex (x<sub>1</sub>, x<sub>2</sub>, x<sub>3</sub>). After model is solved solution status, solution value (obj. function), values of variables, and slacks of constraints are printed.
 
 ### model-2
-A simple linear model example. A ```CplexModel``` class is created within all steps are executed, then an object to call the constructor of the class is created in the ```main``` function to run the model. The model has 2 variables of 1 subindex (x<sub>1</sub>, x<sub>2</sub>). After model is solved solution status, solution value (obj. function), values of variables, and slacks of constraints are printed.
+A simple linear model example. A ```CplexModel``` class is created from within all steps are executed, then an object to call the constructor of the class is created in the ```main``` function to run the model. The model has 2 variables of 1 subindex (x<sub>1</sub>, x<sub>2</sub>). After model is solved solution status, solution value (obj. function), values of variables, and slacks of constraints are printed.
 
 ### glasses-model
 A simple linear model example of a production of glasses. A ```CplexModel``` class is created.
@@ -16,6 +16,9 @@ An example minimum flow model, A ```CplexModel``` class is created. After solve 
 
 ### feed-mix
 An example of a feed-mix problem. This example is in the book: Bazaraa. Linear Programming and Network Flows. 4th Ed. Chapter 1 Exercise 1.3 page 29-30.
+
+### model-by-columns
+An simple example of a linear model populated by columns with two types of variables of 1 subindex (x<sub>i</sub> and y<sub>i</sub>). A ```Cplex``` class is created within all steps are executed.
 
 ### integer-model-pcol
 An example of an integer model with two types of variables of 1 subindex (x<sub>i</sub> and y<sub>i</sub>). This model is populated by columns.
