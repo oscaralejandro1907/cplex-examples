@@ -33,6 +33,9 @@ A complete tsp model
 ### multi-obj-sample
 Two examples of simple multiobjective problems
 
+###eps-constraint-example
+A simple bi-objective model solved by the eps-Constraint method.
+
 ## Constraint Programming Models
 ### graph-coloring
 An introduction example to Constraint Programming (CP). An instance about a problem of graph coloring is solved with this solution method.
