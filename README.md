@@ -29,6 +29,10 @@ An example of a cutting stock problem. Solved by a column generation procedure
 ### tsp
 A complete tsp model
 
+## Multi-Objective Problems
+### multi-obj-sample
+Two examples of simple multiobjective problems
+
 ## Constraint Programming Models
 ### graph-coloring
 An introduction example to Constraint Programming (CP). An instance about a problem of graph coloring is solved with this solution method.
