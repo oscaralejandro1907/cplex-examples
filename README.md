@@ -33,7 +33,7 @@ A complete tsp model
 ### multi-obj-sample
 Two examples of simple multiobjective problems
 
-###eps-constraint-example
+### eps-constraint-example
 A simple bi-objective model solved by the eps-Constraint method.
 
 ## Constraint Programming Models
