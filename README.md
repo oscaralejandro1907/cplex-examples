@@ -36,5 +36,9 @@ A simple example of a CP Model to organize tasks for building a house. Only prec
 ### flow-shop-cp
 A CP model for a classic Flow-shop Scheduling Problem. Instance data format is provided in the examples of the cplex local installation folder.
 
-### job-shop-cp
+### job-shop
 A CP model for a classic Job Shop Scheduling problem. Instance data an steps based on the example provided in the cplex local installation folder.
+
+### flex-job-shop
+A CP model for a classic Flexible Job Shop Scheduling problem. Instance data an steps based on the example provided in the cplex local installation folder.
+
