@@ -54,3 +54,5 @@ A CP model for a classic Job Shop Scheduling problem. Instance data an steps bas
 ### [flex-job-shop](https://github.com/oscaralejandro1907/cplex-examples/tree/main/flex-job-shop)
 A CP model for a classic Flexible Job Shop Scheduling problem. Instance data an steps based on the example provided in the cplex local installation folder.
 
+### [cvrp-cp-optimizer](https://github.com/oscaralejandro1907/cplex-examples/tree/main/cvrp-cplex-cp-optimizer)
+A Capacitated Vehicle Routing problem solved using Constraint Programming
